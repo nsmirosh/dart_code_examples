@@ -1,7 +1,7 @@
 void main() {
-  print('stuff before invoking the future');
+  print('print statement before invoking the future');
 
   Future.delayed(Duration(seconds: 5), () => print('balls'));
 
-  print('stuff after invoking the future');
+  print('print statement after invoking the future');
 }
